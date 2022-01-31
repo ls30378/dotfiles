@@ -1,0 +1,1 @@
+conky -c /home/lorent/.config/conky/AUR-Allinone.conkyrc & sleep 1s
