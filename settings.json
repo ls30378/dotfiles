@@ -1,0 +1,45 @@
+{
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.useSystemClipboard": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "on",
+  "vim.scroll": 5,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.compactFolders": false,
+  "workbench.iconTheme": "vscode-icons",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "files.associations": {
+    "*.jsx": "javascriptreact"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.wordWrap": "on",
+  "editor.fontFamily": "Architects Daughter,cursive",
+  "editor.glyphMargin": true,
+  "editor.smoothScrolling": true,
+  "editor.wordWrap": "on",
+  "editor.letterSpacing": 1,
+  "window.zoomLevel": 1,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "workbench.colorTheme": "Dracula",
+  "bracket-pair-colorizer-2.depreciation-notice": false
+}
