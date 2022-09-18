@@ -1,0 +1,40 @@
+# GitLab.com
+#Host gitlab.com
+#  PreferredAuthentications publickey
+#  IdentityFile ~/.ssh/gitlab_com_rsa
+
+# Private GitLab instance
+#Host x3smon.club    
+#  PreferredAuthentications publickey
+#  IdentityFile ~/.ssh/key
+
+Host lab.x3smon.club
+	User Shtavica
+	HostName 136.243.102.198
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_rsa
+
+  # HostName 104.192.141.1
+Host got.fbl.org 
+	User lorent
+  HostName got.fbl.org
+	PreferredAuthentications publickey
+	IdentityFile ~/new_key
+
+Host bitbucket.org
+	User Shtavica
+	HostName 104.192.141.1
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/bitbucket
+#
+#Host gitlab.com
+	#preferredAuthentications publickey
+	#IdentityFile ~/.ssh/id_rsa
+
+	#Host x3smon.club
+	#PreferredAuthentications publickey
+	#IdentityFile ~/.ssh/id_rsa
+	#Host lab.x3smon.club
+	#PreferredAuthentications publickey
+	#IdentityFile ~/.ssh/id_rsa
+
